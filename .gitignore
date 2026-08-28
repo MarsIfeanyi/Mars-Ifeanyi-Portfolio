@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS files
+Thumbs.db
+
+# logs
+logs/
+*.log
+
+# AI assistant working files (project-specific)
+AGENTS.md
+CLAUDE.md

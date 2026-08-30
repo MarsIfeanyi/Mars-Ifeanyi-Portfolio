@@ -28,7 +28,7 @@ useEffect(()=> {
   return (
 
     <div className={`transition-all ${navBg ? "dark:bg-gray-800 bg-white shadow-md": "fixed"}
-     duration-200 h-[20vh] z-100 fixed w-full`} >
+     duration-200 h-[14vh] z-100 fixed w-full`} >
 <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto' >
     {/* LOGO */}
 <Logo/>

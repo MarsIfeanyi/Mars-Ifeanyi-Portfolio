@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Hero from './Hero/Hero'
+import About from './About/About'
 
 
 export const Home = () => {
@@ -8,6 +9,8 @@ export const Home = () => {
     <div className='overflow-hidden '>
 
       <Hero/>
+<About/>
+
 
     </div>
   )

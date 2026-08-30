@@ -60,12 +60,12 @@ className="font-mono"
 </div>
 
 {/* Description */}
-<p className="text-lg text-muted-foreground dark:text-gray-200 max-w-2xl mx-auto mb-10" >
+<p className="text-xl text-muted-foreground dark:text-gray-200 max-w-2xl mx-auto mb-10" >
 Multidisciplinary engineer, IT and data professional with experience spanning power systems, data analytics,data engineering, software engineering, blockchain, and quantitative finance. 
 </p>
 
 {/* Button */}
-<div className="flex flex-col sm:flex-row gap-4 justify-center">
+{/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
 <Button size={"lg"} className='w-fit mx-auto sm:mx-0'>
   <a href="#">
     <FolderOpen className="w-5 h-5 mr-2" />
@@ -80,9 +80,7 @@ Multidisciplinary engineer, IT and data professional with experience spanning po
   Download CV
 </Button>
 
-
-
-</div>
+</div> */}
 
 
 

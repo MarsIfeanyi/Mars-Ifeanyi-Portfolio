@@ -192,7 +192,7 @@ export const projects = [
       'Next.js',
   'Tailwind CSS',
   'Ethereum',
-  ,],
+  ],
     demoUrl: "https://farmtrustfinance.vercel.app/",
     githubUrl: "https://github.com/Farm-Trust-Finance-FTF/frontend",
   },

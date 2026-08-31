@@ -4,6 +4,8 @@ import Hero from './Hero/Hero'
 import About from './About/About'
 import Skills from './Skills/Skills'
 import Project from './Project/Project'
+import Experience from './Experience/Experience'
+import ClientReview from './ClientReview/ClientReview'
 
 
 export const Home = () => {
@@ -14,6 +16,8 @@ export const Home = () => {
       <About/>
       <Skills/>
       <Project/>
+      <Experience/>
+      <ClientReview/>
 
 
 

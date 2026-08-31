@@ -19,13 +19,13 @@ import {
   Terminal,
 } from "lucide-react";
 
-import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa6";
 
 export const stats = [
   { label: "Years Experience", value: "5+" },
-  { label: "Projects Completed", value: "50+" },
-  { label: "Happy Clients", value: "30+" },
-  { label: "Students Taught", value: "1000+" },
+  { label: "Projects Completed", value: "30+" },
+  { label: "Happy Clients", value: "25+" },
+  { label: "Students Taught", value: "2000+" },
 ];
 
 export const highlights = [
@@ -74,28 +74,32 @@ export const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@johndoe.dev",
-    href: "mailto:hello@johndoe.dev",
+    value: "marschalice@gmail.com",
+    href: "mailto:marschalice@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+2347064643074",
+    href: "tel:+2347064643074",
   },
-  {
-    icon: MapPin,
-    label: "Location",
-    value: "San Francisco, CA",
-    href: "#",
-  },
+  // {
+  //   icon: MapPin,
+  //   label: "Location",
+  //   value: "San Francisco, CA",
+  //   href: "#",
+  // },
 ];
 
 export const socialLinks = [
-  { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FaLinkedinIn, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: FaGithub, href: "https://github.com/MarsIfeanyi", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/marcellus-ifeanyi", label: "LinkedIn" },
+  { icon: FaTwitter, href: "https://x.com/Mars_Energy", label: "Twitter" },
+  {icon:FaYoutube, href:"https://www.youtube.com/@marsifeanyi", label:"YouTube"},
+  {icon:FaWhatsapp, href:" https://wa.me/+2347064643074", label:"WhatsApp"}
+
 ];
+
 
 export const experiences = [
   {
@@ -146,9 +150,11 @@ export const experiences = [
 ];
 
 export const footerSocialLinks = [
-  { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: FaGithub, href: "https://github.com/MarsIfeanyi", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/marcellus-ifeanyi", label: "LinkedIn" },
+  { icon: FaTwitter, href: "https://x.com/Mars_Energy", label: "Twitter" },
+  {icon:FaYoutube, href:"https://www.youtube.com/@marsifeanyi", label:"YouTube"},
+    {icon:FaWhatsapp, href:" https://wa.me/+2347064643074", label:"WhatsApp"},
   { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
 ];
 

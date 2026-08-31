@@ -1,9 +1,7 @@
-
-
 import { ExternalLink } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
-import { Button } from "@/components/ui/button"
+import { Button } from '@/components/ui/button'
 import { FaGithub } from 'react-icons/fa6'
 
 type Props = {
@@ -61,36 +59,49 @@ const ProjectCard = ({
         </div>
 
         {/* Buttons */}
+        <div className="flex gap-3">
+          {/* Live Demo */}
+          {demoUrl && (
+            <Button
+              nativeButton={false}
+              size="sm"
+              className="flex-1"
+              render={
+                <a
+                  href={demoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              }
+            >
+              <ExternalLink className="mr-2 h-4 w-4" />
+              Live Demo
+            </Button>
+          )}
 
-<div className='flex gap-3 '>
-{demoUrl && (
-  <Button
-  
-    size="sm"
-    className="flex-1"
-    render={<a href={demoUrl} target="_blank" rel="noopener noreferrer" />}
-  >
-    <ExternalLink className="w-4 h-4 mr-2" />
-    Live Demo
-  </Button>
-)}
-
-{githubUrl && (
-  <Button
-  variant={"outline"}
-    size="sm"
-    className="flex-1 py-2"
-    render={<a href={githubUrl} target="_blank" rel="noopener noreferrer" />}
-  >
-    <FaGithub className="w-4 h-4 mr-2" />
-    Github
-  </Button>
-)}
-</div>     
+          {/* GitHub */}
+          {githubUrl && (
+            <Button
+              nativeButton={false}
+              variant="outline"
+              size="sm"
+              className="flex-1 py-2"
+              render={
+                <a
+                  href={githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              }
+            >
+              <FaGithub className="mr-2 h-4 w-4" />
+              GitHub
+            </Button>
+          )}
+        </div>
       </div>
     </div>
   )
 }
 
 export default ProjectCard
-

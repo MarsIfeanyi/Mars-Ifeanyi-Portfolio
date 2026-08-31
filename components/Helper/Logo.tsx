@@ -11,7 +11,7 @@ const Logo = () => {
 <h1 className='shadow-2xl rounded-b-full' >
 <Image
   src="/images/mars.jpg"
-  alt="Rocket"
+  alt="LogoImage"
   width={80}
   height={80}
   className='rounded-full' 

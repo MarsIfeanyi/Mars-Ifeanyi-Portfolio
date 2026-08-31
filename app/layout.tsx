@@ -13,7 +13,7 @@ const font = Inter({
 
 export const metadata: Metadata = {
   title: "Marcellus Ifeanyi Ugokwe",
-  description: "Marcellus Ifeanyi Ugokwe, Data & Analytics Engineer | Software Engineer | Quant & Chartered Trader | AI/ML | Blockchain Developer",
+  description: "Marcellus Ifeanyi Ugokwe, Data Engineer | Software Engineer | Data Analytics Engineer | Quant & Chartered Trader | AI/ML Engineer | Full-Stack Blockchain Developer",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

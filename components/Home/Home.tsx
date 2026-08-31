@@ -6,6 +6,9 @@ import Skills from './Skills/Skills'
 import Project from './Project/Project'
 import Experience from './Experience/Experience'
 import ClientReview from './ClientReview/ClientReview'
+import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
+
 
 
 export const Home = () => {
@@ -18,8 +21,9 @@ export const Home = () => {
       <Project/>
       <Experience/>
       <ClientReview/>
-
-
+      <Contact/>
+      <Footer/>
+   
 
     </div>
   )

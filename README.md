@@ -1,3 +1,3 @@
 ## Marcellus Ifeanyi Ugokwe Portfolio Website
 
-Data & Analytics Engineer | Software Engineer | Quant & Chartered Trader | AI/ML | Blockchain Developer
+Data Engineer | Software Engineer | Data Analytics Engineer | Quant & Chartered Trader | AI/ML Engineer | Full-Stack Blockchain Developer

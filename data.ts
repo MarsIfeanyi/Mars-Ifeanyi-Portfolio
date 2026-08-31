@@ -153,60 +153,89 @@ export const footerSocialLinks = [
 ];
 
 export const projects = [
+
   {
-    title: "E-Commerce Platform",
+    title: "Bale Store",
     description:
-      "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
-    image: "/images/p1.jpg",
-    techStack: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "Bale Store is a Decentralized e-commerce thrift platform that provides customers and vendors with a convenient and sustainable solution to the problem of finding affordable and sustainable clothing options, while ensuring secure shopping for all users.",
+    image: "/images/balestore.png",
+    techStack: ["TypeScript", "Solidity", "Next.Js", "MongoDB"],
+    demoUrl: "https://balestore.vercel.app/",
+    githubUrl: "https://balestore.vercel.app/about-us",
   },
-  {
-    title: "Task Management App",
+
+
+
+{
+    title: "WasteWise Protocol",
     description:
-      "Collaborative project management tool with real-time updates, Kanban boards, and team analytics.",
-    image: "/images/p2.jpg",
-    techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "WasteWise protocol is a green chain, sustainable environment-first (Waste to Wealth) blockchain-powered platform designed to incentivize recycling and responsible waste(plastic) disposal, contributing significantly to the creation of cleaner, more sustainable environments for all.The circular economy is at the core of our approach—reusing, and recycling plastic bottles to reduce waste in landfills",
+    image: "/images/wastewiseprotocol.png",
+    techStack: [
+      'Solidity',
+      'Next.Js',
+  'TypeScript',
+  'Tailwind CSS',],
+    demoUrl: "https://docs.google.com/document/d/1ku2YX2gRcuGEeaSHJQGQsD6MTjmuzblbhW4ebuSgsG8/edit?usp=sharing",
+    githubUrl: "https://github.com/MarsIfeanyi/WasteWise-Protocol",
   },
-  {
-    title: "AI Content Generator",
+
+
+{
+    title: "Farm Trust Finance",
     description:
-      "GPT-powered content creation platform for marketers with templates and workflow automation.",
-    image: "/images/p3.jpg",
-    techStack: ["React", "Python", "OpenAI", "FastAPI"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "Farm Trust Finance offers digital banking services to smallholder farmers through providing services like Parametric insurance, lending, borrowing, cross-chain asset transfer, saving, Agricultural best practices, location-based disaster notification, Marketplace, and climate risk management.",
+    image: "/images/farmtrust.png",
+    techStack: [
+      'Solidity',
+       'TypeScript',
+      'Next.js',
+  'Tailwind CSS',
+  'Ethereum',
+  ,],
+    demoUrl: "https://farmtrustfinance.vercel.app/",
+    githubUrl: "https://github.com/Farm-Trust-Finance-FTF/frontend",
   },
+
+  
+
   {
-    title: "Real Estate Platform",
+    title: "Bottle Innovate Recycle Cycle",
     description:
-      "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
-    image: "/images/p4.jpg",
+      "Bottle Innovate Recycle Cycle (BIRC) offers convenient and sustainable waste disposal solutions for individuals and businesses. Our innovative rewards program incentivizes users to dispose of their plastic waste with us by offering USDC as a reward. Our experienced team is committed to promoting sustainability and reducing waste. Let's work together to create a cleaner and more sustainable future!",
+    image: "/images/birc.png",
     techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    demoUrl: "https://birc.netlify.app/",
+    githubUrl: "https://birc.netlify.app/#contact-us",
   },
+  
   {
-    title: "Fitness Tracker",
+    title: "Realties",
     description:
-      "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
-    image: "/images/p5.jpg",
-    techStack: ["React Native", "Firebase", "Node.js", "Charts"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "Real Estate platform where you can save your rent,pay your rent and earn accountability with your landlord",
+    image: "/images/realties.png",
+    techStack: ["TypeScript", "Next.js",  "TailwindCSS", "MongoDB"],
+    demoUrl: "https://realties.vercel.app/",
+    githubUrl: "https://github.com/realties-team/Realties-Webites",
   },
+
+
   {
-    title: "Learning Management System",
+    title: "ThirdSpace",
     description:
-      "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
-    image: "/images/p6.jpg",
-    techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "Next Gen Web3 and AI powered All-in-One workspace for Web3 companies and DAOS.",
+    image: "/images/thirdspace.png",
+    techStack: ['Solidity',
+  'Next.js',
+  'TypeScript',
+  'Tailwind CSS',
+  'Prisma',
+  ],
+    demoUrl: "https://0xthirdspace.vercel.app/",
+    githubUrl: "https://github.com/MarsIfeanyi/0xThirdspace",
   },
+
+
 ];
 
 export const skillCategories = [

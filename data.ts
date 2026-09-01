@@ -294,8 +294,7 @@ export const projects = [
       "WasteWise protocol is a green chain, sustainable environment-first (Waste to Wealth) blockchain-powered platform designed to incentivize recycling and responsible waste(plastic) disposal, contributing significantly to the creation of cleaner, more sustainable environments for all.The circular economy is at the core of our approach—reusing, and recycling plastic bottles to reduce waste in landfills",
     image: "/images/wastewiseprotocol.png",
     techStack: ["Solidity", "Next.Js", "TypeScript", "Tailwind"],
-    demoUrl:
-      "https://docs.google.com/document/d/1ku2YX2gRcuGEeaSHJQGQsD6MTjmuzblbhW4ebuSgsG8/edit?usp=sharing",
+    demoUrl: "https://wastewise-protocol.vercel.app/",
     githubUrl: "https://github.com/MarsIfeanyi/WasteWise-Protocol",
   },
 

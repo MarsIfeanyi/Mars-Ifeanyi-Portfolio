@@ -4,12 +4,12 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <Link href="/#home" aria-label="Go to homepage">
+    <Link href="/#home" aria-label="Go to homepage" className="pt-4">
       <Image
         src="/images/mars.jpg"
         alt="Mars Ifeanyi Logo"
-        width={80}
-        height={80}
+        width={70}
+        height={70}
         priority
         className="rounded-full shadow-2xl cursor-pointer"
       />

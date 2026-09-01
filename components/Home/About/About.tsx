@@ -5,7 +5,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="pt-6 pb-16 bg-gray-100 dark:bg-gray-900 ">
+    <div id="about" className="pb-16 bg-gray-100 dark:bg-gray-900 ">
       {/* Section Heading */}
       <SectionHeading title_1="About" title_2="Me" />
 

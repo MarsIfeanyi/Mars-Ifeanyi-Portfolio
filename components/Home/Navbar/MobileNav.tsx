@@ -9,36 +9,63 @@ type Props = {
 };
 
 const MobileNav = ({ closeNav, showNav }: Props) => {
-  const sidebarOpenClose = showNav ? "translate-x-0" : "translate-x-[-100%]";
-
   return (
-    <div>
-      {/* Overlay */}
+    <>
+      {/* =========================
+          OVERLAY
+      ========================== */}
       <div
-        className={`fixed ${sidebarOpenClose} inset-0 transform transition-all duration-500 z-1002 bg-black opacity-70 w-full h-screen`}
-      ></div>
+        onClick={closeNav}
+        aria-hidden="true"
+        className={`fixed inset-0 z-[1002] bg-black/70 backdrop-blur-sm transition-all duration-300 ${
+          showNav
+            ? "pointer-events-auto visible opacity-100"
+            : "pointer-events-none invisible opacity-0"
+        }`}
+      />
 
-      {/* navlinks */}
+      {/* =========================
+          MOBILE NAVIGATION
+      ========================== */}
       <div
-        className={`text-white ${sidebarOpenClose} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[60%] sm:w-[60%] bg-gray-800  space-y-6 z-1050`}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Mobile navigation menu"
+        className={`fixed left-1/2 top-1/2 z-[1050] w-[90%] max-w-md -translate-x-1/2 rounded-2xl bg-gray-900 p-8 text-white shadow-2xl transition-all duration-300 ease-in-out ${
+          showNav
+            ? "-translate-y-1/2 scale-100 opacity-100"
+            : "-translate-y-[45%] scale-95 opacity-0 pointer-events-none"
+        }`}
       >
-        {Navlinks.map((link, index) => {
-          return (
-            <Link key={index} href={link.href}>
-              <p className="text-white w-fit text-[20px] ml-12 border-b-1[1.5px] pb-1 border-white sm:text-[30px]">
-                {link.name}{" "}
-              </p>
-            </Link>
-          );
-        })}
-
-        {/* Close Icon */}
-        <X
+        {/* =========================
+            CLOSE BUTTON
+        ========================== */}
+        <button
+          type="button"
           onClick={closeNav}
-          className="absolute top-[0.7rem] right-[1.4rem] sm:w-8 sm:h-8 w-6 h-6"
-        />
+          aria-label="Close navigation menu"
+          className="absolute right-5 top-5 rounded-full p-2 text-white transition-all duration-200 hover:bg-white/10 hover:text-gray-300"
+        >
+          <X className="h-6 w-6" />
+        </button>
+
+        {/* =========================
+            NAVIGATION LINKS
+        ========================== */}
+        <nav className="mt-8 flex flex-col items-center justify-center gap-6">
+          {Navlinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={closeNav}
+              className="border-b-2 border-transparent pb-1 text-xl font-medium transition-all duration-200 hover:border-white hover:text-gray-300 sm:text-2xl"
+            >
+              {link.name}
+            </Link>
+          ))}
+        </nav>
       </div>
-    </div>
+    </>
   );
 };
 

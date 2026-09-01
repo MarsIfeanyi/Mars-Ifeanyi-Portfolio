@@ -15,7 +15,6 @@ const Hero = () => {
         items-center
         justify-center
         overflow-hidden
-  
         bg-[radial-gradient(circle_476px_at_54.8%_51.5%,rgba(168,229,253,1)_0%,rgba(244,244,254,1)_42.3%,rgba(244,244,254,1)_100.2%)]
         dark:bg-[radial-gradient(circle_476px_at_54.8%_51.5%,rgba(30,64,175,0.35)_0%,rgba(17,24,39,0.9)_55%,rgba(17,24,39,1)_100%)]
       "

@@ -24,9 +24,9 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-6 pt-24 sm:pt-0">
         {/* Sub title */}
-        <div data-aos="fade-up" className="sm:mb-6">
-          <span className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-white dark:bg-gray-600 text-muted-foreground dark:text-gray-200 text-xs sm:text-sm mb-8 max-w-[92vw]">
-            <span className="w-2 h-2 rounded-full bg-green-500 shrink-0"></span>
+        <div data-aos="fade-up" className="sm:mb-6 ">
+          <span className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-white dark:bg-gray-600 text-muted-foreground dark:text-gray-200  sm:text-lg mb-8 max-w-[92vw]">
+            <span className=" text-xl w-2 h-2 rounded-full bg-green-500 shrink-0"></span>
             Available for Opportunities
           </span>
         </div>

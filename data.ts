@@ -19,7 +19,50 @@ import {
   Terminal,
 } from "lucide-react";
 
-import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa6";
+import {
+  ReactIcon,
+  NextjsIcon,
+  TypeScriptIcon,
+  TailwindIcon,
+  JavaScriptIcon,
+  NodejsIcon,
+  ExpressIcon,
+  MongoDBIcon,
+  PostgreSQLIcon,
+  GraphQLIcon,
+  RestApiIcon,
+  GitIcon,
+  DockerIcon,
+  AWSIcon,
+  LinuxIcon,
+  FigmaIcon,
+  CICDIcon,
+  AirflowIcon,
+  DatabricksIcon,
+  PySparkIcon,
+  SnowflakeIcon,
+  PythonIcon,
+  SqlIcon,
+  ExcelIcon,
+  PowerBIIcon,
+  DbtIcon,
+  SolidityIcon,
+  EthereumIcon,
+  EthersJsIcon,
+  HardhatIcon,
+  Web3JsIcon,
+  RustIcon,
+  SolanaIcon,
+} from "@/components/ui/brandon-icons";
+
+import {
+  FaGithub,
+  FaLinkedin,
+  FaLinkedinIn,
+  FaTwitter,
+  FaWhatsapp,
+  FaYoutube,
+} from "react-icons/fa6";
 
 export const stats = [
   { label: "Years Experience", value: "5+" },
@@ -93,73 +136,148 @@ export const contactInfo = [
 
 export const socialLinks = [
   { icon: FaGithub, href: "https://github.com/MarsIfeanyi", label: "GitHub" },
-  { icon: FaLinkedin, href: "https://www.linkedin.com/in/marcellus-ifeanyi", label: "LinkedIn" },
+  {
+    icon: FaLinkedin,
+    href: "https://www.linkedin.com/in/marcellus-ifeanyi",
+    label: "LinkedIn",
+  },
   { icon: FaTwitter, href: "https://x.com/Mars_Energy", label: "Twitter" },
-  {icon:FaYoutube, href:"https://www.youtube.com/@marsifeanyi", label:"YouTube"},
-  {icon:FaWhatsapp, href:" https://wa.me/+2347064643074", label:"WhatsApp"}
-
+  {
+    icon: FaYoutube,
+    href: "https://www.youtube.com/@marsifeanyi",
+    label: "YouTube",
+  },
+  {
+    icon: FaWhatsapp,
+    href: " https://wa.me/+2347064643074",
+    label: "WhatsApp",
+  },
 ];
-
 
 export const experiences = [
   {
     type: "work",
-    title: "Senior Full-Stack Developer",
-    company: "TechCorp Inc.",
-    period: "2022 - Present",
-    description:
-      "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
-    technologies: ["React", "Node.js", "AWS", "TypeScript"],
+    title: "Data & Analytics Engineer",
+    company: "Hugo Mars Capitals Limited",
+    period: "2023 - Present",
+    description: [
+      "Designing and developing data pipelines, analytics solutions, and data-driven systems to transform complex datasets into actionable insights.",
+      "Working across data engineering, analytics engineering, and quantitative analysis to support financial decision-making, risk management, and business intelligence.",
+    ],
   },
+
   {
     type: "work",
-    title: "Full-Stack Developer",
-    company: "StartupXYZ",
-    period: "2020 - 2022",
-    description:
-      "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
-    technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
+    title: "Data & IT Support Engineer",
+    company: "Mease Energy Nigeria Limited",
+    period: "2026 - Present",
+    description: [
+      "Built data pipelines that supports seismic data acquisition, processing, and interpretation.",
+      "IT infrastructure, and technical support.",
+      "Managing data workflows, maintaining computing systems.",
+      "Troubleshooting technical issues, and ensuring reliable availability and processing of seismic data for geophysical operations.",
+    ],
   },
+
   {
     type: "education",
-    title: "Master of Computer Science",
-    company: "Stanford University",
-    period: "2018 - 2020",
-    description:
-      "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
-    technologies: ["Research", "AI/ML", "Distributed Systems"],
+    title: "B.Eng. Electrical & Electronics Engineering",
+    company: "Federal University of Technology, Owerri (FUTO)",
+    period: "2014 - 2019",
+    description: [
+      "Power systems & Electrical machines.",
+      "Instrumentation & Control systems.",
+      "Electronics & Renewable Energy.",
+      "Robotics &  Automations.",
+      "Engineering Economic and Analysis.",
+    ],
   },
+
   {
     type: "work",
-    title: "Junior Developer",
-    company: "WebAgency Co.",
-    period: "2018 - 2020",
-    description:
-      "Developed client websites and e-commerce platforms. Gained experience in agile methodologies.",
-    technologies: ["JavaScript", "PHP", "MySQL", "WordPress"],
+    title: "Data Analyst",
+    company: "Transmission Company of Nigeria (TCN)",
+    period: "2024 - 2025",
+    description: [
+      "Analyzed power system operational data to monitor grid performance and support operational decision-making.",
+      "Prepared reports and analyzed trends in generation, transmission, load demand, and system frequency.",
+      "Monitored power system parameters to identify anomalies and support efficient grid operations.",
+    ],
   },
+
+  {
+    type: "work",
+    title: "Software Engineer Intern (Blockchain)",
+    company: "Web3Bridge ",
+    period: "2023 - 2024",
+    description: [
+      "Contributed to drafting the PRD for Smart contract designs.",
+      "Contributed to smart contract code reviews and auditing.",
+      "Contributed to improving smart contract logic to ensure safe and secure contracts.",
+      "Took part in major decisions regarding user experience for smart contracts and Front-End.",
+    ],
+  },
+
+  {
+    type: "work",
+    title: "Software Engineer Intern (Blockchain)",
+    company: "Genesys Tech Hub",
+    period: "2022 - 2023",
+    description: [
+      "Developed and deployed secure smart contracts.",
+      "Built decentralized applications.",
+      "Implemented smart contracts integrations with the frontend.",
+      "Collaborated with cross-functional engineering and product teams.",
+    ],
+  },
+
+  {
+    type: "work",
+    title: "Graduate Trainee Engineer (NYSC)",
+    company: "Transmission Company of Nigeria (TCN)",
+    period: "2021 - 2022",
+    description: [
+      "Power System Operations and Control.",
+      "Power System Protection, Control and Metering.",
+      "Power System Electrical Maintenance.",
+      "Power System High Voltage Transmission Lines.",
+    ],
+  },
+
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "UC Berkeley",
-    period: "2014 - 2018",
-    description:
-      "Strong foundation in algorithms, data structures, and software engineering principles.",
-    technologies: ["Computer Science", "Mathematics", "Problem Solving"],
+    title: "Master of Science, Financial Engineering",
+    company: "WorldQuant University",
+    period: "2026 - 2028 (in-view)",
+    description: [
+      "Developing advanced quantitative and computational skills in financial engineering, with a focus on financial data analysis, econometrics, stochastic modeling, derivatives pricing, machine learning, deep learning, portfolio optimization, and risk management",
+      "Applying Python, statistical methods, and mathematical models to solve real-world financial and market problems.",
+    ],
   },
 ];
 
 export const footerSocialLinks = [
   { icon: FaGithub, href: "https://github.com/MarsIfeanyi", label: "GitHub" },
-  { icon: FaLinkedin, href: "https://www.linkedin.com/in/marcellus-ifeanyi", label: "LinkedIn" },
+  {
+    icon: FaLinkedin,
+    href: "https://www.linkedin.com/in/marcellus-ifeanyi",
+    label: "LinkedIn",
+  },
   { icon: FaTwitter, href: "https://x.com/Mars_Energy", label: "Twitter" },
-  {icon:FaYoutube, href:"https://www.youtube.com/@marsifeanyi", label:"YouTube"},
-    {icon:FaWhatsapp, href:" https://wa.me/+2347064643074", label:"WhatsApp"},
+  {
+    icon: FaYoutube,
+    href: "https://www.youtube.com/@marsifeanyi",
+    label: "YouTube",
+  },
+  {
+    icon: FaWhatsapp,
+    href: " https://wa.me/+2347064643074",
+    label: "WhatsApp",
+  },
   { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
 ];
 
 export const projects = [
-
   {
     title: "Bale Store",
     description:
@@ -170,112 +288,122 @@ export const projects = [
     githubUrl: "https://balestore.vercel.app/about-us",
   },
 
-
-
-{
+  {
     title: "WasteWise Protocol",
     description:
       "WasteWise protocol is a green chain, sustainable environment-first (Waste to Wealth) blockchain-powered platform designed to incentivize recycling and responsible waste(plastic) disposal, contributing significantly to the creation of cleaner, more sustainable environments for all.The circular economy is at the core of our approach—reusing, and recycling plastic bottles to reduce waste in landfills",
     image: "/images/wastewiseprotocol.png",
-    techStack: [
-      'Solidity',
-      'Next.Js',
-  'TypeScript',
-  'Tailwind CSS',],
-    demoUrl: "https://docs.google.com/document/d/1ku2YX2gRcuGEeaSHJQGQsD6MTjmuzblbhW4ebuSgsG8/edit?usp=sharing",
+    techStack: ["Solidity", "Next.Js", "TypeScript", "Tailwind"],
+    demoUrl:
+      "https://docs.google.com/document/d/1ku2YX2gRcuGEeaSHJQGQsD6MTjmuzblbhW4ebuSgsG8/edit?usp=sharing",
     githubUrl: "https://github.com/MarsIfeanyi/WasteWise-Protocol",
   },
 
-
-{
+  {
     title: "Farm Trust Finance",
     description:
       "Farm Trust Finance offers digital banking services to smallholder farmers through providing services like Parametric insurance, lending, borrowing, cross-chain asset transfer, saving, Agricultural best practices, location-based disaster notification, Marketplace, and climate risk management.",
     image: "/images/farmtrust.png",
-    techStack: [
-      'Solidity',
-       'TypeScript',
-      'Next.js',
-  'Tailwind CSS',
-  'Ethereum',
-  ],
+    techStack: ["Solidity", "TypeScript", "Next.js", "Tailwind"],
     demoUrl: "https://farmtrustfinance.vercel.app/",
     githubUrl: "https://github.com/Farm-Trust-Finance-FTF/frontend",
   },
-
-  
 
   {
     title: "Bottle Innovate Recycle Cycle",
     description:
       "Bottle Innovate Recycle Cycle (BIRC) offers convenient and sustainable waste disposal solutions for individuals and businesses. Our innovative rewards program incentivizes users to dispose of their plastic waste with us by offering USDC as a reward. Our experienced team is committed to promoting sustainability and reducing waste. Let's work together to create a cleaner and more sustainable future!",
     image: "/images/birc.png",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
+    techStack: ["React", "Node.js", "MongoDB", "TpeScript"],
     demoUrl: "https://birc.netlify.app/",
-    githubUrl: "https://birc.netlify.app/#contact-us",
+    githubUrl: "https://github.com/Sheila-a/Circle-WMS",
   },
-  
+
   {
     title: "Realties",
     description:
       "Real Estate platform where you can save your rent,pay your rent and earn accountability with your landlord",
     image: "/images/realties.png",
-    techStack: ["TypeScript", "Next.js",  "TailwindCSS", "MongoDB"],
+    techStack: ["TypeScript", "Next.js", "TailwindCSS"],
     demoUrl: "https://realties.vercel.app/",
     githubUrl: "https://github.com/realties-team/Realties-Webites",
   },
-
 
   {
     title: "ThirdSpace",
     description:
       "Next Gen Web3 and AI powered All-in-One workspace for Web3 companies and DAOS.",
     image: "/images/thirdspace.png",
-    techStack: ['Solidity',
-  'Next.js',
-  'TypeScript',
-  'Tailwind CSS',
-  'Prisma',
-  ],
+    techStack: ["Solidity", "Next.js", "TypeScript", "Tailwind"],
     demoUrl: "https://0xthirdspace.vercel.app/",
     githubUrl: "https://github.com/MarsIfeanyi/0xThirdspace",
   },
-
-
 ];
 
 export const skillCategories = [
   {
-    title: "Frontend",
+    title: "Frontend Development",
     skills: [
-      { name: "React", icon: Code2 },
-      { name: "Next.js", icon: Globe },
-      { name: "TypeScript", icon: Terminal },
-      { name: "Tailwind CSS", icon: Palette },
-      { name: "React Native", icon: Smartphone },
-      { name: "Vue.js", icon: Layout },
+      { name: "JavaScript", icon: JavaScriptIcon },
+      { name: "TypeScript", icon: TypeScriptIcon },
+      { name: "React", icon: ReactIcon },
+      { name: "Next.js", icon: NextjsIcon },
+      { name: "Tailwind CSS", icon: TailwindIcon },
+      { name: "Figma", icon: FigmaIcon },
+    ],
+  },
+
+  {
+    title: "Data & Analytics Engineering",
+    skills: [
+      { name: "SQL", icon: SqlIcon },
+      { name: "Python", icon: PythonIcon },
+      { name: "PySpark", icon: PySparkIcon },
+      { name: "PostgreSQL", icon: PostgreSQLIcon },
+      { name: "AWS", icon: AWSIcon },
+      { name: "Airflow", icon: AirflowIcon },
+      { name: "dbt", icon: DbtIcon },
+      { name: "Databricks", icon: DatabricksIcon },
+      { name: "Snowflake", icon: SnowflakeIcon },
+      { name: "Docker", icon: DockerIcon },
+      { name: "Excel", icon: ExcelIcon },
+      { name: "Power BI", icon: PowerBIIcon },
+    ],
+  },
+
+  {
+    title: "Blockchain Development",
+    skills: [
+      { name: "Solidity", icon: SolidityIcon },
+      { name: "Ethereum", icon: EthereumIcon },
+      { name: "Ethers.js", icon: EthersJsIcon },
+      { name: "Web3.js", icon: Web3JsIcon },
+      { name: "Hardhat", icon: HardhatIcon },
+      { name: "Rust", icon: RustIcon },
+      { name: "Solana", icon: SolanaIcon },
     ],
   },
   {
-    title: "Backend",
+    title: "Others",
     skills: [
-      { name: "Node.js", icon: Server },
-      { name: "Express", icon: Layers },
-      { name: "MongoDB", icon: Database },
-      { name: "PostgreSQL", icon: Database },
-      { name: "GraphQL", icon: Cpu },
-      { name: "REST APIs", icon: Cloud },
-    ],
-  },
-  {
-    title: "Tools & Others",
-    skills: [
-      { name: "Git", icon: GitBranch },
-      { name: "Docker", icon: Server },
-      { name: "AWS", icon: Cloud },
-      { name: "Linux", icon: Terminal },
-      { name: "Figma", icon: Palette },
-      { name: "CI/CD", icon: Cpu },
+      { name: "Git", icon: GitIcon },
+      { name: "Linux", icon: LinuxIcon },
+      { name: "Figma", icon: FigmaIcon },
+      { name: "CI/CD", icon: CICDIcon },
+      { name: "MongoDB", icon: MongoDBIcon },
+      { name: "GraphQL", icon: GraphQLIcon },
     ],
   },
 ];
+
+// {
+//     title: "Backend",
+//     skills: [
+//       { name: "Node.js", icon: NodejsIcon },
+//       { name: "Express", icon: ExpressIcon },
+//       { name: "MongoDB", icon: MongoDBIcon },
+//       { name: "PostgreSQL", icon: PostgreSQLIcon },
+//       { name: "GraphQL", icon: GraphQLIcon },
+//       { name: "REST APIs", icon: RestApiIcon },
+//     ],
+//   },

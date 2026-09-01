@@ -32,6 +32,7 @@ const ReviewCard = ({user}:Props) => {
                 alt='image'
                 width={50}
                 height={50}
+                priority  
                 className='rounded-full' 
             />
             <div>

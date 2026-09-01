@@ -1,17 +1,17 @@
-import { ExternalLink } from 'lucide-react'
-import Image from 'next/image'
-import React from 'react'
-import { Button } from '@/components/ui/button'
-import { FaGithub } from 'react-icons/fa6'
+import { ExternalLink } from "lucide-react";
+import Image from "next/image";
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { FaGithub } from "react-icons/fa6";
 
 type Props = {
-  title: string
-  description: string
-  image: string
-  techStack: string[]
-  demoUrl?: string
-  githubUrl?: string
-}
+  title: string;
+  description: string;
+  image: string;
+  techStack: string[];
+  demoUrl?: string;
+  githubUrl?: string;
+};
 
 const ProjectCard = ({
   description,
@@ -30,6 +30,7 @@ const ProjectCard = ({
           alt={title}
           width={400}
           height={400}
+          priority
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </div>
@@ -47,7 +48,7 @@ const ProjectCard = ({
         </p>
 
         {/* Tech Stack */}
-        <div className="mb-6 flex flex-wrap gap-2">
+        {/* <div className="mb-6 flex flex-wrap gap-2">
           {techStack.map((tech) => (
             <span
               key={tech}
@@ -56,22 +57,18 @@ const ProjectCard = ({
               {tech}
             </span>
           ))}
-        </div>
+        </div> */}
 
         {/* Buttons */}
-        <div className="flex gap-3">
+        <div className="flex gap-3  py-2">
           {/* Live Demo */}
           {demoUrl && (
             <Button
               nativeButton={false}
               size="sm"
-              className="flex-1"
+              className="flex-1 py-4"
               render={
-                <a
-                  href={demoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                />
+                <a href={demoUrl} target="_blank" rel="noopener noreferrer" />
               }
             >
               <ExternalLink className="mr-2 h-4 w-4" />
@@ -85,13 +82,9 @@ const ProjectCard = ({
               nativeButton={false}
               variant="outline"
               size="sm"
-              className="flex-1 py-2"
+              className="flex-1 py-4"
               render={
-                <a
-                  href={githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                />
+                <a href={githubUrl} target="_blank" rel="noopener noreferrer" />
               }
             >
               <FaGithub className="mr-2 h-4 w-4" />
@@ -101,7 +94,7 @@ const ProjectCard = ({
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;

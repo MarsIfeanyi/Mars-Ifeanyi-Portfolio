@@ -5,7 +5,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="py-16 bg-gray-100 dark:bg-gray-900 ">
+    <div id="about" className="pt-6 pb-16 bg-gray-100 dark:bg-gray-900 ">
       {/* Section Heading */}
       <SectionHeading title_1="About" title_2="Me" />
 
@@ -39,9 +39,9 @@ const About = () => {
             A passionate developer who loves to create
           </h3> */}
           <p className="text-muted-foreground leading-relaxed">
-            I&apos;m an Electrical & Electronics Engineer, Software Engineer,
-            Data & IT Professional, Quant, and Chartered Trader with expertise
-            spanning technology, data, and global financial markets.
+            Electrical & Electronics Engineer, Software Engineer, Data & IT
+            Professional, Quant, and Chartered Trader with expertise spanning
+            technology, data, and global financial markets.
             <span className="block mt-1">
               I&apos;m passionate about leveraging data, technology, and
               quantitative analysis to solve complex problems, support informed

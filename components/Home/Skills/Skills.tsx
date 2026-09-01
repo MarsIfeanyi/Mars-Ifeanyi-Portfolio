@@ -9,7 +9,7 @@ const Skills = () => {
       <SectionHeading
         title_1="Technical"
         title_2="Skills"
-        description="Technologies, tools, and frameworks I work with"
+        description="Technologies / Tools I work with"
       />
 
       <div className="space-y-12 w-[60%] mx-auto">

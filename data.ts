@@ -274,7 +274,7 @@ export const footerSocialLinks = [
     href: " https://wa.me/+2347064643074",
     label: "WhatsApp",
   },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Mail, href: "mailto:marschalice@gmail.com", label: "Email" },
 ];
 
 export const projects = [

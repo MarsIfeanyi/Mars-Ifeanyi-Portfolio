@@ -7,10 +7,12 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden bg-[radial-gradient(circle_476px_at_54.8%_51.5%,rgba(168,229,253,1)_0%,rgba(244,244,254,1)_42.3%,rgba(244,244,254,1)_100.2%)] dark:bg-[radial-gradient(circle_476px_at_54.8%_51.5%,rgba(30,64,175,0.35)_0%,rgba(17,24,39,0.9)_55%,rgba(17,24,39,1)_100%)]"
+      className="relative min-h-[calc(110vh-5rem)] flex items-center justify-center overflow-hidden 
+      bg-[radial-gradient(circle_476px_at_54.8%_51.5%,rgba(168,229,253,1)_0%,rgba(244,244,254,1)_42.3%,rgba(244,244,254,1)_100.2%)] dark:bg-[radial-gradient(circle_476px_at_54.8%_51.5%,rgba(30,64,175,0.35)_0%,rgba(17,24,39,0.9)_55%,rgba(17,24,39,1)_100%)]
+ "
     >
       {/* Content */}
-      <div className="relative z-10 px-6 pt-20 text-center">
+      <div className="relative z-10 px-6  text-center">
         {/* Main Title */}
         <h1
           data-aos="fade-up"
@@ -65,7 +67,11 @@ const Hero = () => {
         </p>
 
         {/* Buttons */}
-        {/* <div data-aos="fade-up" data-aos-delay="400" className="flex flex-col justify-center gap-4 sm:flex-row">
+        {/* <div
+          data-aos="fade-up"
+          data-aos-delay="400"
+          className="flex flex-col justify-center gap-4 sm:flex-row"
+        >
           <Button size="lg" className="mx-auto w-fit sm:mx-0">
             <FolderOpen className="mr-2 h-5 w-5" />
             View Projects

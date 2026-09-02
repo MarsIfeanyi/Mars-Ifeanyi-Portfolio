@@ -156,7 +156,17 @@ export const socialLinks = [
 
 export const experiences = [
   {
-    type: "work",
+    title: "Data & IT Support Engineer",
+    company: "Mease Energy Nigeria Limited",
+    period: "2026 - Present",
+    description: [
+      "Building and supporting data workflows for seismic data acquisition, processing, and interpretation.",
+      "Managing computing systems, data workflows, and technical infrastructure supporting geophysical operations.",
+      "Providing IT support and troubleshooting technical issues to maintain reliable systems and data availability.",
+    ],
+  },
+
+  {
     title: "Data & Analytics Engineer",
     company: "Hugo Mars Capitals Limited",
     period: "2023 - Present",
@@ -167,34 +177,6 @@ export const experiences = [
   },
 
   {
-    type: "work",
-    title: "Data & IT Support Engineer",
-    company: "Mease Energy Nigeria Limited",
-    period: "2026 - Present",
-    description: [
-      "Built data pipelines that supports seismic data acquisition, processing, and interpretation.",
-      "IT infrastructure, and technical support.",
-      "Managing data workflows, maintaining computing systems.",
-      "Troubleshooting technical issues, and ensuring reliable availability and processing of seismic data for geophysical operations.",
-    ],
-  },
-
-  {
-    type: "education",
-    title: "B.Eng. Electrical & Electronics Engineering",
-    company: "Federal University of Technology, Owerri (FUTO)",
-    period: "2014 - 2019",
-    description: [
-      "Power systems & Electrical machines.",
-      "Instrumentation & Control systems.",
-      "Electronics & Renewable Energy.",
-      "Robotics &  Automations.",
-      "Engineering Economic and Analysis.",
-    ],
-  },
-
-  {
-    type: "work",
     title: "Data Analyst",
     company: "Transmission Company of Nigeria (TCN)",
     period: "2024 - 2025",
@@ -206,52 +188,89 @@ export const experiences = [
   },
 
   {
-    type: "work",
     title: "Software Engineer Intern (Blockchain)",
-    company: "Web3Bridge ",
+    company: "Web3Bridge",
     period: "2023 - 2024",
     description: [
-      "Contributed to drafting the PRD for Smart contract designs.",
-      "Contributed to smart contract code reviews and auditing.",
-      "Contributed to improving smart contract logic to ensure safe and secure contracts.",
-      "Took part in major decisions regarding user experience for smart contracts and Front-End.",
+      "Contributed to product requirements and smart contract design.",
+      "Participated in smart contract code reviews and security auditing.",
+      "Contributed to improving smart contract logic for secure and reliable decentralized applications.",
+      "Participated in UX and frontend decisions for blockchain applications.",
     ],
   },
 
   {
-    type: "work",
     title: "Software Engineer Intern (Blockchain)",
     company: "Genesys Tech Hub",
     period: "2022 - 2023",
     description: [
-      "Developed and deployed secure smart contracts.",
-      "Built decentralized applications.",
-      "Implemented smart contracts integrations with the frontend.",
+      "Developed and deployed smart contracts.",
+      "Built decentralized applications using blockchain technologies.",
+      "Integrated smart contracts with frontend applications.",
       "Collaborated with cross-functional engineering and product teams.",
     ],
   },
 
   {
-    type: "work",
     title: "Graduate Trainee Engineer (NYSC)",
     company: "Transmission Company of Nigeria (TCN)",
     period: "2021 - 2022",
     description: [
-      "Power System Operations and Control.",
-      "Power System Protection, Control and Metering.",
-      "Power System Electrical Maintenance.",
-      "Power System High Voltage Transmission Lines.",
+      "Worked on power system operations and control.",
+      "Gained practical experience in power system protection, control, and metering.",
+      "Supported electrical maintenance activities within transmission facilities.",
+      "Gained exposure to high-voltage transmission systems and operations.",
+    ],
+  },
+];
+
+export const education = [
+  {
+    degree: "Master of Science, Financial Engineering",
+    institution: "WorldQuant University",
+    period: "2026 - 2028 (In View)",
+    description: [
+      "Developing advanced quantitative and computational skills in financial engineering.",
+      "Focused on financial data analysis, econometrics, stochastic modeling, derivatives pricing, machine learning, deep learning, portfolio optimization, and risk management.",
+      "Applying Python, statistical methods, and mathematical models to real-world financial and market problems.",
     ],
   },
 
   {
-    type: "education",
-    title: "Master of Science, Financial Engineering",
-    company: "WorldQuant University",
-    period: "2026 - 2028 (in-view)",
+    degree: "Diploma in Computer Science (Software Engineering)",
+    institution: "Holberton School",
+    period: "2022 - 2023",
     description: [
-      "Developing advanced quantitative and computational skills in financial engineering, with a focus on financial data analysis, econometrics, stochastic modeling, derivatives pricing, machine learning, deep learning, portfolio optimization, and risk management",
-      "Applying Python, statistical methods, and mathematical models to solve real-world financial and market problems.",
+      "Computer science fundamentals, programming, data structures, algorithms, and software engineering.",
+      "Hands-on development using C, Python, JavaScript, SQL, Linux/Unix, Git, and web technologies.",
+      "Built practical projects involving systems programming, backend development, databases, APIs, and software architecture.",
+      "Applied testing, debugging, version control, technical documentation, and collaborative project-based development.",
+    ],
+  },
+
+  {
+    degree: "MiniMBA, Venture in Management Programme",
+    institution: "Lagos Business School, Pan-Atlantic University",
+    period: "2022 - 2022",
+    description: [
+      "Developed foundational knowledge in business management, leadership, entrepreneurship, and strategic decision-making.",
+      "Gained practical exposure to strategy, finance, marketing, operations, and organisational management.",
+      "Applied business concepts through case studies, collaborative projects, and real-world problem-solving exercises.",
+      "Strengthened critical thinking, communication, teamwork, and leadership skills for addressing complex business challenges.",
+    ],
+  },
+
+  {
+    degree:
+      "Bachelor of Engineering (B.Eng.), Electrical & Electronics Engineering",
+    institution: "Federal University of Technology, Owerri (FUTO)",
+    period: "2014 - 2019",
+    description: [
+      "Power systems and electrical machines.",
+      "Instrumentation and control systems.",
+      "Electronics and renewable energy.",
+      "Robotics and automation.",
+      "Engineering economics and analysis.",
     ],
   },
 ];

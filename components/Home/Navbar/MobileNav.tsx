@@ -31,7 +31,7 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
         onClick={closeNav}
         aria-hidden="true"
         className={`
-          fixed inset-0 z-[1001]
+          fixed inset-0 z-1001
           bg-black/70
           backdrop-blur-sm
           transition-all duration-300
@@ -49,7 +49,7 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
         aria-modal="true"
         aria-label="Mobile navigation menu"
         className={`
-          fixed left-1/2 top-1/2 z-[1050]
+          fixed left-1/2 top-1/2 z-1050
           w-[90%] max-w-md
           -translate-x-1/2
           rounded-2xl
@@ -62,7 +62,7 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
           ${
             showNav
               ? "-translate-y-1/2 scale-100 opacity-100"
-              : "-translate-y-[45%] pointer-events-none scale-95 opacity-0"
+              : "translate-y-[-45%] pointer-events-none scale-95 opacity-0"
           }
         `}
       >

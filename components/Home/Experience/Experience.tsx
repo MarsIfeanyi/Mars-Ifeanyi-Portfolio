@@ -14,7 +14,7 @@ const Experience = () => {
 
       <div className="relative mx-auto max-w-4xl px-6">
         {/* Timeline line */}
-        <div className="absolute bottom-0 left-4 top-0 w-px bg-gradient-to-b from-blue-400 to-blue-900 md:left-1/2 md:-translate-x-px" />
+        <div className="absolute bottom-0 left-4 top-0 w-px bg-linear-to-b from-blue-400 to-blue-900 md:left-1/2 md:-translate-x-px" />
 
         {experiences.map((item, index) => (
           <div

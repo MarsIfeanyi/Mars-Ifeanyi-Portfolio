@@ -36,7 +36,7 @@ const Nav = ({ openNav }: Props) => {
         transition-all duration-300 pb-4
         ${
           navBg
-            ? "bg-white/95 shadow-md backdrop-blur-md dark:bg-gray-900/95"
+            ? "bg-white/95 shadow-md backdrop-blur-md dark:bg-gray-800"
             : "bg-transparent"
         }
       `}

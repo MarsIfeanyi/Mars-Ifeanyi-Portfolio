@@ -17,7 +17,7 @@ const Hero = () => {
         <h1
           data-aos="fade-up"
           data-aos-delay="100"
-          className="mb-6 text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl"
+          className=" text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl mt-10 mb-6"
         >
           Hi, I&apos;m{" "}
           <span className="text-blue-700 dark:text-yellow-500">

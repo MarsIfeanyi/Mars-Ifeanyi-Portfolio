@@ -33,33 +33,38 @@ const About = () => {
           data-aos="fade-left"
           data-aos-delay="150"
           data-aos-anchor-placement="top-center"
-          className="space-y-6"
+          className="space-y-6  text-lg"
         >
-          {/* <h3 className="text-2xl font-semibold ">
-            A passionate developer who loves to create
-          </h3> */}
-          <p className="text-muted-foreground leading-relaxed">
-            Electrical & Electronics Engineer, Software Engineer, Data & IT
-            Professional, Quant, and Chartered Trader with expertise spanning
-            technology, data, and global financial markets.
+          <p className="text-muted-foreground leading-relaxed  ">
+            Multidisciplinary engineer and technology professional with a
+            background spanning electrical and electronics engineering, energy
+            systems, software engineering, data & analytics engineering, and
+            financial markets.{" "}
             <span className="block mt-1">
-              I&apos;m passionate about leveraging data, technology, and
-              quantitative analysis to solve complex problems, support informed
-              decision-making, manage risk, and create sustainable value.
+              My interests lie at the intersection of engineering, technology,
+              and intelligent systems. I&apos;m passionate about understanding
+              complex systems and using software, data, and quantitative methods
+              to develop solutions that improve decision-making, efficiency,
+              reliability, and value creation.
+            </span>
+            <span className="block mt-1">
+              My engineering background has developed my interest in energy
+              systems, power and renewable energy, and the application of
+              technology to address modern energy challenges.
+            </span>
+            <span className="block mt-1">
+              My journey into software and data has led me to explore Software
+              Engineering, Data Engineering, Artificial Intelligence, Machine
+              Learning, and Computer Science, particularly their application to
+              real-world engineering, business, and technical problems.
+            </span>
+            <span className="block mt-1">
+              I&apos;m also interested in quantitative finance and financial
+              markets, where I explore data-driven and algorithmic approaches to
+              market analysis, risk management, and systematic trading.
             </span>
           </p>
-          <p className="text-muted-foreground leading-relaxed">
-            My long-term vision is to become a Quantitative Trader, Analyst, and
-            Researcher, and ultimately a Hedge Fund Manager, designing
-            sophisticated trading, portfolio, and risk management systems for
-            global markets.
-            <span className="block mt-1">
-              I&apos;m committed to continuously advancing my expertise in Data
-              Engineering, Data Analytics Engineering, Quantitative Finance, and
-              Algorithmic Trading to build innovative, scalable solutions for
-              the financial industry.
-            </span>
-          </p>
+
           {/* Highlights */}
           {/* <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4' >
         {

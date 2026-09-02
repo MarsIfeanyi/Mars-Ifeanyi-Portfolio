@@ -31,10 +31,10 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
         role="dialog"
         aria-modal="true"
         aria-label="Mobile navigation menu"
-        className={`fixed left-1/2 top-1/2 z-[1050] w-[90%] max-w-md -translate-x-1/2 rounded-2xl bg-gray-900 p-8 text-white shadow-2xl transition-all duration-300 ease-in-out ${
+        className={`fixed left-1/2 top-1/2 z-1050 w-[90%] max-w-md -translate-x-1/2 rounded-2xl bg-gray-900 p-8 text-white shadow-2xl transition-all duration-300 ease-in-out ${
           showNav
             ? "-translate-y-1/2 scale-100 opacity-100"
-            : "-translate-y-[45%] scale-95 opacity-0 pointer-events-none"
+            : "translate-y-[-45%] scale-95 opacity-0 pointer-events-none"
         }`}
       >
         {/* =========================

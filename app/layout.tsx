@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+
 import "./globals.css";
+
 import Provider from "@/components/Hoc/Provider";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
@@ -12,9 +14,9 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Marcellus Ifeanyi Ugokwe",
+  title: "Marcellus Ifeanyi Ugokwe | Engineer & Technology Professional",
   description:
-    "Marcellus Ifeanyi Ugokwe, Data Engineer | Software Engineer | Data Analytics Engineer | Quant & Chartered Trader | AI/ML Engineer | Full-Stack Blockchain Developer",
+    "Marcellus Ifeanyi Ugokwe is a multidisciplinary engineer and technology professional with a background in electrical and electronics engineering, energy systems, software, data, AI, blockchain, and quantitative finance.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

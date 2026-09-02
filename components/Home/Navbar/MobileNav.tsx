@@ -17,7 +17,7 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
       <div
         onClick={closeNav}
         aria-hidden="true"
-        className={`fixed inset-0 z-[1002] bg-black/70 backdrop-blur-sm transition-all duration-300 ${
+        className={`fixed inset-0 z-1002 bg-black/70 backdrop-blur-sm transition-all duration-300 ${
           showNav
             ? "pointer-events-auto visible opacity-100"
             : "pointer-events-none invisible opacity-0"

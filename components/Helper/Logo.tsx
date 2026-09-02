@@ -4,7 +4,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <Link href="/#home" aria-label="Go to homepage" className="pt-4">
+    <Link href="/" aria-label="Go to homepage" className="pt-4">
       <Image
         src="/images/mars.jpg"
         alt="Mars Ifeanyi Logo"

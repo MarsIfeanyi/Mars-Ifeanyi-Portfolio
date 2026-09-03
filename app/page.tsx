@@ -1,10 +1,13 @@
+import { Home } from "@/components/Home/Home";
 
-import { Home } from '@/components/Home/Home'
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import React from "react";
 
-const HomePage =()=>{
-  return <Home/>
-}
+const HomePage = () => {
+  return (
+    <main>
+      <Home />
+    </main>
+  );
+};
 
-export default HomePage
+export default HomePage;

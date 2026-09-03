@@ -406,7 +406,6 @@ export const skillCategories = [
     skills: [
       { name: "Git", icon: GitIcon },
       { name: "Linux", icon: LinuxIcon },
-      { name: "Figma", icon: FigmaIcon },
       { name: "CI/CD", icon: CICDIcon },
       { name: "MongoDB", icon: MongoDBIcon },
       { name: "GraphQL", icon: GraphQLIcon },

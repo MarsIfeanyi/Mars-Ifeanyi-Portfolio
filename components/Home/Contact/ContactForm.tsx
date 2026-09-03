@@ -24,7 +24,7 @@ const ContactForm = () => {
               name="name"
               placeholder="your name"
               required
-              className="bg-gray-100 dark:bg-gray-700"
+              className="bg-gray-100 dark:bg-gray-700 py-5"
             />
           </div>
 
@@ -39,7 +39,7 @@ const ContactForm = () => {
               type="email"
               placeholder="your email"
               required
-              className="bg-gray-100 dark:bg-gray-700"
+              className="bg-gray-100 dark:bg-gray-700 py-5"
             />
           </div>
         </div>
@@ -55,7 +55,7 @@ const ContactForm = () => {
             name="subject"
             placeholder="your inquiry"
             required
-            className="bg-gray-100 dark:bg-gray-700"
+            className="bg-gray-100 dark:bg-gray-700 py-5"
           />
         </div>
 
